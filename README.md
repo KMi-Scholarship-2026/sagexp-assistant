@@ -2,6 +2,35 @@
 
 An offline evaluation and benchmarking script for the **KMi Stress-Sense** assistant's retrieval pipeline. This script replicates the deployed TF-IDF retriever (`rag_pipeline.py`) and benchmarks its retrieval accuracy, latency, and storage footprint against two alternative lexical retrieval configurations.
 
+---
+
+👉 **Live Publication Site:** https://kmi-scholarship-2026.github.io/sagexp-assistant/
+
+## 📜 License
+The source code and web layout configuration files in this repository are open-source and licensed under the **MIT License**. See the `LICENSE` file for details.
+
+---
+
+## ✍️ Citation
+
+If you build upon this work, in your own research, please cite our publication:
+
+> Banjo, T. (2026). "SAGEXP: Explaining a Wearable Stress Classifier with a Retrieval Augmented Assistant Built Under a Zero-Cost Constraint." *Knowledge Media Institute, The Open University*.
+
+### BibTeX
+
+```bibtex
+@misc{oro112994,
+  title     = {SAGEXP: Explaining a Wearable Stress Classifier with a Retrieval Augmented Assistant Built Under a Zero-Cost Constraint},
+  publisher = {Knowledge Media Institute, The Open University},
+  year      = {2026},
+  author    = {Banjo, Timileyin},
+  keywords  = {SAGEXP, Generative AI, Stress Detection Explanations, RAG},
+  note      = {KMi Supervisors: Audrey Ekuban, Alba Morales-Tirado, Harith Alani},
+  doi = {10.21954/ou.ro.00112994}
+}
+```
+
 ## Overview
 
 The evaluation measures how effectively different sparse retrieval methods surface relevant context chunks (top K = 4) across 24 test queries split into two categories:
