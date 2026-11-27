@@ -42,6 +42,7 @@ The evaluation measures how effectively different sparse retrieval methods surfa
 2. **`tfidf_stop`:** Identical to the deployed TF-IDF retriever, but strips common English stopwords from the query prior to scoring.
 3. **`bm25`:** Standard Okapi BM25 scoring (k₁ = 1.5, b = 0.75) incorporating term frequency saturation and document length normalization.
 
+<a href="sagexp_retrieval_evaluate.html" target="_blank" rel="noopener noreferrer">View the Python code</a>
 ---
 
 ## Prerequisites & Setup
