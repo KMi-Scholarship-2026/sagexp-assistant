@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this web artifact, please cite the accompanying record as specified below."
+authors:
+  - family-names: "Banjo"
+    given-names: "Timileyin"
+    orcid: "https://orcid.org/0009-0004-4067-4357"
+title: "SAGEXP assistant evaluation"
+version: 1.0.0
+date-released: 2026-11-27
+keywords:
+  - "SAGEXP"
+  - "Generative AI"
+  - "Stress Detection Explanations"
+  - "RAG"
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: "Banjo"
+      given-names: "Timileyin"
+      orcid: "https://orcid.org/0009-0004-4067-4357"
+  title: "SAGEXP: Explaining a Wearable Stress Classifier with a Retrieval Augmented Assistant Built Under a Zero-Cost Constraint"
+  year: 2026
+  publisher:
+    name: "Knowledge Media Institute, The Open University"
+  doi: "10.21954/ou.ro.00112994"

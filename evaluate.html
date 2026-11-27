@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="https://cloudflare.com">
+<script src="https://cloudflare.com"></script>
+
+<pre><code id="python-code" class="language-python">Loading code...</code></pre>
+
+<script>
+  fetch('./evaluate.py')
+    .then(response => response.text())
+    .then(code => {
+      const block = document.getElementById('python-code');
+      block.textContent = code;
+      hljs.highlightElement(block);
+    });
+</script>
