@@ -7,6 +7,9 @@ authors:
 title: "SAGEXP assistant evaluation"
 version: 1.0.0
 date-released: 2026-11-27
+license: MIT
+repository-code: "https://github.com/KMi-Scholarship-2026/sagexp-assistant"
+url: "https://kmi-scholarship-2026.github.io/sagexp-assistant/"
 keywords:
   - "SAGEXP"
   - "Generative AI"
